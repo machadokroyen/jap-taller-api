@@ -1,0 +1,30 @@
+* {
+    text-align: center;
+}
+
+p {
+    margin: 3px;
+}
+
+#list {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    
+}
+
+.contenedor {
+    border: 2px solid red;
+    width: 320px;
+    padding: 3px;
+    text-align: center;
+    margin: 5px;
+    background-color: rgb(203, 203, 203);
+    font-size: 20px;
+}
+
+.contenedor img {
+    width: 300px;
+    display: block;
+    margin: auto;
+    padding-top: 3px;
+}
